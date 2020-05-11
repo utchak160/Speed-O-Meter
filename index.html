@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/speedometer.css" rel="stylesheet" type="text/css"/>
+    <title>Speed-o-meter</title>
+</head>
+<body>
+<div class="heading">
+	<h1>Virtual Car Dashboard</h1>
+</div>
+<div class="speed">
+	<input placeholder="Enter Speed" id="myValues"/>
+</div>
+
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/speedometer.js"></script>
+<script type="text/javascript">
+    $("#myValues").myfunc({divFact: 10, eventListenerType: 'keyup'});
+</script>
+</html>
